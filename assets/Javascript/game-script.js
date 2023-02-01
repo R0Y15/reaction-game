@@ -30,7 +30,7 @@ document.getElementById("hard").onclick = function () {
 }
 
 document.getElementById("Extreme").onclick = function () {
-    difficulty = 100;
+    difficulty = 50;
     document.getElementById("shape").style.height = "10 px";
     document.getElementById("shape").style.width = "10 px";
     document.getElementById("difficulty").innerHTML = "Extreme";
