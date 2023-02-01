@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction-Game</title>
+    <link rel="stylesheet" href="assets/CSS/game-style.css">
+    <link rel="icon" href="assets/icon/game-Icon.ico">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+
+    <div class="game-btn">
+        <p>Enter your difficulty</p>
+        <button id="easy">Easy</button>
+        <button id="mid">Medium</button>
+        <button id="hard">Hard</button>
+        <button id="Extreme">Extreme</button>
+    </div>
+
+    <div class="game-btn">
+        <div class="DiffandTime" id="space">
+            Difficulty: <span id="difficulty">None</span>
+            Time taken: <span id="time-taken">0s</span>
+            Points: <span id="points">0</span>
+        </div>
+    </div>
+
+    <div class="playground">
+        <div id="shape"></div>
+    </div>
+
+    <div class="game-btn">
+        <br>
+        <button id="refresh-btn">Click To Restart</button>
+    </div>
+
+<script src="assets/Javascript/game-script.js"></script>
+<script>
+
+    swal("Select The Difficulty To Start The Game", "Good Luck");
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+#shape {
+    height: 20px;
+    width: 20px;
+    background-color: greenyellow;
+    display: none;
+    position: relative;
+
+}
+
+.game-btn {
+    /*center the div*/
+    margin: 0 auto;
+    /*center the button*/
+    text-align: center;
+    /*make the button bigger*/
+    font-size: 20px;
+    /*make the button wider*/
+    width: 600px;
+}
+
+.playground {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    background-color: #000;
+    position: relative;
+}
+
+.DiffandTime {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
